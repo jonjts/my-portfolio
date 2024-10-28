@@ -6,5 +6,6 @@ describe("Home", () => {
   it("render home page", () => {
     render(<Home />);
     expect(screen.getByText("Hi, I'm Jonas")).toBeInTheDocument();
+    expect(screen.getByText("Follow me")).toBeInTheDocument();
   });
 });
