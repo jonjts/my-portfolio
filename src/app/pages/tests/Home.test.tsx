@@ -7,5 +7,6 @@ describe("Home", () => {
     render(<Home />);
     expect(screen.getByText("Hi, I'm Jonas")).toBeInTheDocument();
     expect(screen.getByText("Follow me")).toBeInTheDocument();
+    expect(screen.getByText("Coffee")).toBeInTheDocument();
   });
 });
