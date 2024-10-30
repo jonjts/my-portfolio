@@ -1,3 +1,5 @@
+"use client";
+
 import CoolStuffSection from "../components/CoolStuffSection";
 import Footer from "../components/Footer";
 import PresentationSection from "../components/PresentationSection";
