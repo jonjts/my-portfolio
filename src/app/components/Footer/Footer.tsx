@@ -1,8 +1,4 @@
-import {
-  GithubLogo,
-  LinkedinLogo,
-  Envelope,
-} from "@phosphor-icons/react/dist/ssr";
+import { Icon } from "@iconify/react";
 
 const ICON_SIZE = 24;
 const ICON_COLOR = "var(--purple-300)";
@@ -22,7 +18,7 @@ export const Footer = () => (
         rel="noreferrer"
         aria-label="github"
       >
-        <GithubLogo color={ICON_COLOR} size={ICON_SIZE} />
+        <Icon icon={"mdi:github"} color={ICON_COLOR} fontSize={ICON_SIZE} />
       </a>
       <a
         href={`${LINKS.linkedin}`}
@@ -30,7 +26,7 @@ export const Footer = () => (
         rel="noreferrer"
         aria-label="linkedin"
       >
-        <LinkedinLogo color={ICON_COLOR} size={ICON_SIZE} />
+        <Icon icon='mdi:linkedin' color={ICON_COLOR} fontSize={ICON_SIZE} />
       </a>
       <a
         href={`${LINKS.email}`}
@@ -38,7 +34,7 @@ export const Footer = () => (
         rel="noreferrer"
         aria-label="email"
       >
-        <Envelope color={ICON_COLOR} size={ICON_SIZE} />
+        <Icon icon='material-symbols-light:mail' color={ICON_COLOR} fontSize={ICON_SIZE} />
       </a>
     </div>
   </footer>

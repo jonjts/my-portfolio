@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${raleway.className}  p-16 sm:p-16 md:p-16 lg:pl-52 lg:pr-52 lg:pt-44 pb-9 antialiased`}
+        className={`${raleway.className}  p-8 md:p-16 lg:pl-52 lg:pr-52 lg:pt-44 pb-9 antialiased`}
       >
         {children}
       </body>

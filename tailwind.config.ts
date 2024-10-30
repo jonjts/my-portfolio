@@ -21,6 +21,7 @@ const config: Config = {
         'purple-300': 'var(--purple-300)',
         'purple-400': 'var(--purple-400)',
         'purple-500': 'var(--purple-500)',
+        'gray-gradient': 'var(--gray-gradient)',
       },
     },
   },

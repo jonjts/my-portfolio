@@ -8,5 +8,8 @@ describe("Home", () => {
     expect(screen.getByText("Hi, I'm Jonas")).toBeInTheDocument();
     expect(screen.getByText("Follow me")).toBeInTheDocument();
     expect(screen.getByText("Coffee")).toBeInTheDocument();
+    expect(
+      screen.getByText(/technologies I’ve been using/i)
+    ).toBeInTheDocument();
   });
 });
